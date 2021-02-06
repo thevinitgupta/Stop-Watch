@@ -1,0 +1,9 @@
+html {
+  background-color: #184d47;
+  color: #16c79a;
+}
+.App {
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+  text-align: center;
+}

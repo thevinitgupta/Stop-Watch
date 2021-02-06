@@ -1,0 +1,21 @@
+.Snaps {
+  width: 70vw;
+  min-height: 30vh;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Snaps > h2 {
+  color: #fff76a;
+  text-decoration: underline;
+}
+.Snap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 4vw;
+}
+.Snap > div {
+  margin-right: 30px;
+}

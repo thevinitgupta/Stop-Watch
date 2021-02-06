@@ -1,0 +1,23 @@
+.Timer {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  font-size: 12vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 5px 15px -4px #fff86a31, -3px -5px 15px -4px #1b330a54;
+}
+
+.Timer__minutes::after {
+  content: "mins";
+  font-size: 5vw;
+  color: #fff76a;
+}
+.Timer__seconds::after {
+  content: "secs";
+  font-size: 5vw;
+  color: #fff76a;
+}
